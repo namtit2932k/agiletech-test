@@ -1,0 +1,112 @@
+.Home {
+    .hero{
+        display: flex;
+        position: relative;
+
+        .hero-left {
+            .hero-title {
+                font-family: "Helvetica", Sans-Serif;
+                font-weight: 700;
+                font-size: 80px;
+                max-width: 640px;
+                color: #212353;
+                line-height: 88px;
+            }
+
+            .hero-desc {
+                max-width: 340px;
+                color: #4B5D68;
+                font-family: "Avenir", Sans-Serif;
+                line-height: 28.8px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .link {
+                margin-top: 40px;
+                display: inline-block;
+                color: #ffffff;
+                text-decoration: none;
+                font-family: 'Inter', sans-serif;
+                font-weight: 600;
+                cursor: pointer;
+                :hover {
+                    animation: button 1s forwards;
+                  }
+                
+                .button {
+                    background-color: #9C69E2;
+                    padding: 18px 40px;
+                    border-radius: 50px;  
+                }
+            }
+        }
+
+        .hero-right {
+            position: absolute;
+            right: 0;
+            bottom: -7%;
+            z-index: -999;
+            img{
+                height: auto;
+                max-width: 50vw;
+            }
+        }
+    }
+
+    .features{
+        .features-title{
+            margin-top: 160px;
+            font-family: "Helvetica", Sans-Serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #212353;
+        }
+
+        .features-desc{
+            margin-bottom: 100px;
+            font-family: "Avenir", Sans-Serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #4B5D68;
+        }
+
+        .features-list{
+            display: flex;
+            flex-wrap: wrap;
+            .col{
+                max-width: 50%;
+            }
+        }
+    }
+
+    .testimonials{
+        background-color: #9C69E2;
+        border-radius: 50px;
+        min-height: 800px;
+        overflow: hidden;
+
+        .testi-title{
+            font-family: "Helvetica", Sans-Serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding: 100px 93px 0 93px;
+            color: #FFFFFF;
+        }
+
+        .slider{
+            max-width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+}

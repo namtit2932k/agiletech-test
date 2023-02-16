@@ -1,0 +1,51 @@
+.container{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    min-height: 400px;
+
+    .tesimonial{
+        display: flex;
+
+        .testi-img{
+            margin-top: 50px;
+            margin-left: 50px;
+            clip-path: ellipse(43% 32% at 50% 50%);
+            max-width: 180px;
+            max-height: 150px;
+            img{
+             object-fit: cover;
+            }
+        }
+
+        .testi-content{
+            padding: 90px 10px 20px 10px;
+            h1{
+                font-family: "Avenir", sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 29px;
+                letter-spacing: 0.005em;
+                text-align: left;    
+                color: #212353;            
+            }
+            h3{
+                font-family: "Avenir";
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.01em;
+                text-align: left;
+                color: #9C69E2;
+            }
+            h2{
+                font-family: "Avenir";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;
+                letter-spacing: 0em;
+                text-align: left;
+                color:#4B5D68;
+            }
+        }
+    }
+}

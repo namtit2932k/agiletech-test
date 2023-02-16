@@ -1,0 +1,58 @@
+.NavBar {
+    margin: 48px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .left-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 9px;
+        cursor: pointer;
+
+        .col1 {
+            width: 19.88px;
+            height: 19.88px;
+            left: 400px;
+            top: 74.83px;
+
+            background: #9C69E2;
+            border-radius: 20px;
+        }
+
+        .col2 {
+            width: 19.88px;
+            height: 34.78px;
+            left: 428.82px;
+            top: 59.93px;
+
+            background: #F063B8;
+            border-radius: 20px;
+        }
+    }
+
+
+    .link {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        cursor: pointer;
+        :hover {
+            animation: button 1s forwards;
+          }
+        
+        .button {
+            background-color: #9C69E2;
+            padding: 18px 70px;
+            border-radius: 50px;     
+        }
+    }
+
+    .loggedin{
+        display: flex;
+        gap: 20px;
+    }
+
+}
